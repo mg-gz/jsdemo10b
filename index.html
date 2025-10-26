@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>javascript demo on web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>demonstrating Javascript use with html and css</h1>
+  <br>
+  <p>1: Buttons that change background color, and display text description for each color</p>
+
+  <div class="button-container">
+    <button class="color-btn" data-color="red">Red</button>
+    <button class="color-btn" data-color="blue">Blue</button>
+    <button class="color-btn" data-color="green">Green</button>
+    <button class="color-btn" data-color="yellow">Yellow</button>
+    <button class="color-btn" data-color="purple">Purple</button>
+  </div>
+
+
+
+  <p id="color-description"></p>
+  <hr>
+  <p>2: Button that plays a bird sound from an MP3 file</p>
+
+  <button id="sound-btn">🔊 Play Sound</button>
+  <hr>
+  <p>3: Button that cycles between images stored on the server's file</p>
+  <div id="image-container">
+    <button id="next-image-btn">➡️ Next Image</button>
+    <br>
+    <img id="displayed-image" src="resources/image1.png" alt="Demo image">
+  </div>
+
+  <hr>
+  <p>4: Button that counts how many times it's clicked</p>
+
+  <div id="click-counter-container">
+    <button id="counter-btn">🖱️ Click Me!</button>
+    <p id="click-count">Clicks: 0</p>
+  </div>
+
+  <hr>
+
+  <footer>
+     © 2025 Mansour Algumazi | For Mr. Mohammed Fawzy | Class : 10B
+  </footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

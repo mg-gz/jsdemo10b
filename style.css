@@ -1,0 +1,162 @@
+/* main page setup */
+body {
+  font-family: Arial, sans-serif; /* basic font that looks clean */
+  text-align: center; /* center all the stuff */
+  padding: 50px; /* lil bit of space around */
+  transition: background-color 0.3s ease; /* makes bg color change smooth */
+}
+
+/* hr = the line thing */
+hr {
+  border: none; 
+}
+
+/* the big title */
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+/* normal paragraph text */
+p {
+  color: rgb(0, 0, 0); /* black text, easy to read */
+  font-weight: bolder; /* make it stand out a bit */
+  font-size: 16px; /* not too small */
+  margin-bottom: 1em; /* adds space below each line */
+}
+
+/* styling the line thing (hr) */
+hr {
+  border: none;
+  border-top: 3px solid #333; /* just the top line shows up */
+  height: 0; /* hides any weird height */
+  margin: 20px 0; /* adds space up and down */
+}
+/* styling footer */
+footer{
+  font-weight: bold;
+  margin-bottom: 1em; /* adds space below each line */
+
+}
+
+/* this holds all the color buttons together */
+.button-container {
+  margin-top: 30px;
+}
+
+/* color buttons setup */
+.color-btn {
+  border: none;
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 1em;
+  border-radius: 10px; /* round edges look nicer */
+  cursor: pointer; /* shows the hand thing on hover */
+  color: rgb(0, 0, 0); /* black text so it’s readable */
+  font-weight: bold;
+  transition: transform 0.2s ease; /* lil animation on hover */
+}
+
+/* makes button grow when u hover */
+.color-btn:hover {
+  transform: scale(1.1);
+}
+
+/* area where the pics go */
+#image-container {
+  margin-top: 30px;
+}
+
+/* style for the picture itself */
+#displayed-image {
+  width: 300px; /* not too big */
+  height: auto;
+  border-radius: 15px; /* soft corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* adds shadow for depth */
+  transition: opacity 0.5s ease; /* makes the fade smooth */
+}
+
+/* button to go next pic */
+#next-image-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  background-color: #333; /* dark gray */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s ease; /* smooth hover */
+}
+
+/* next image hover effect */
+#next-image-btn:hover {
+  background-color: #555;
+  transform: scale(1.05); /* tiny zoom */
+}
+
+/* button that plays the sound */
+#sound-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s ease;
+}
+
+/* lil animation for hover */
+#sound-btn:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* color themes for each button */
+.color-btn[data-color="red"] { background-color: rgb(211, 38, 38); }
+.color-btn[data-color="blue"] { background-color: rgb(60, 60, 218); }
+.color-btn[data-color="green"] { background-color: rgb(22, 107, 22); }
+.color-btn[data-color="yellow"] { background-color: rgb(230, 167, 8); }
+.color-btn[data-color="purple"] { background-color: rgb(146, 19, 146); }
+
+/* where the color info text shows up */
+#color-description {
+  margin-top: 70px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000000;
+  transition: opacity 0.3s ease; /* fades in smoothly */
+  opacity: 0; /* starts invisible */
+}
+
+/* click counter section */
+#click-counter-container {
+  margin-top: 30px;
+}
+
+#counter-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s ease;
+}
+
+#counter-btn:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+#click-count {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #000;
+}
+
+
