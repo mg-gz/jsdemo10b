@@ -21,6 +21,6 @@ A simple project showing how **JavaScript**, **HTML**, and **CSS** work together
 
 ---
 
-Made by **[Mansour Algumaizi]**
-For Mr. **[Mohammed Fawzy]**
+Made by **Mansour Algumaizi**
+For Mr. **Mohammed Fawzy**
 
