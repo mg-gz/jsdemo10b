@@ -14,11 +14,6 @@ A simple project showing how **JavaScript**, **HTML**, and **CSS** work together
 - Basic animations and transitions
 - Simple use of audio and images
 
-## 🚀 How to Use
-1. Put all files in one folder.  
-2. Open `index.html` in a browser.  
-3. Click around and see the effects!
-
 ---
 
 Made by **Mansour Algumaizi**
